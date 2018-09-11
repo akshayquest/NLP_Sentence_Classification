@@ -61,5 +61,4 @@ correct = 0
 for i in range(0 , 7):
     correct += cm[i][i]
 
-#correct/823
-    
+accuracy = correct/len(y_pred)
